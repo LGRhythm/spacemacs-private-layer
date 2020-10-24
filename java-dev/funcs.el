@@ -11,9 +11,7 @@
 
 (defun spacemacs//java-java-path ()
   (when (not (eq java-java-path nil))
-    (java-java-path)))
-
-(spacemacs//java-java-path)
+    java-java-path))
 
 (defun spacemacs//java-backend ()
   "Returns selected backend."
